@@ -1,0 +1,78 @@
+
+*{
+    /* general reset */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+/* body styling */
+body{
+    background-color:#f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+/* container styling */
+.container{
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: inset;
+      width: 100%;
+      max-width: 400px;
+      text-align: center;
+}
+/* heading */
+h2{
+   color: #333;
+   margin-bottom: 20px;
+
+}
+
+/* input field */
+input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border:1px solid #dddd;
+    border-radius: 6px;
+    font-size: 18px;
+}
+/* login button */
+button{
+   width: 100%;
+   background-color: #007bff;
+   color: whitesmoke;
+   padding: 10px;
+   border: none;
+   border-radius: 6px;
+   cursor: pointer;
+   font-size: 16px;
+   transition: 0.3s ;
+}
+/* error and success  */
+p{
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* mobile responsive */
+@media (max-width:480px){
+    .container{
+        width: 90%;
+        padding: 20px;
+    }
+}
+/* role */
+#role{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border:1px solid #dddd;
+    border-radius: 6px;
+    font-size: 18px;
+}
